@@ -7,6 +7,10 @@
   "author": "TANIGUCHI Masaya",
   "license": "MIT",
   "private": false,
+  "repository": {
+    "url": "git@github.com:tani/rehype-inline-css.git",
+    "type": "git"
+  },
   "dependencies": {
     "hast-util-from-parse5": "^7.1.0",
     "hast-util-to-html": "^8.0.2",
