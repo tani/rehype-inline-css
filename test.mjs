@@ -2,7 +2,7 @@ import test from 'tape'
 import { unified } from 'unified'
 import rehype from 'rehype-parse'
 import stringify from 'rehype-stringify'
-import inlineCss from './index.js'
+import inlineCss from './index.mjs'
 const processor = unified().use(rehype).use(inlineCss).use(stringify)
 test("Inlining a stylesheet", (t) => {
     const i = `<p>test</p><style>p { color: red; }</style>`
