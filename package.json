@@ -1,6 +1,6 @@
 {
   "name": "rehype-inline-css",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Rehype plugin for juice",
   "main": "index.cjs",
   "author": "TANIGUCHI Masaya",
@@ -20,10 +20,10 @@
     "default": "./index.cjs"
   },
   "files": [
-      "package.json",
-      "README.md",
-      "index.cjs",
-      "index.mjs"
+    "package.json",
+    "README.md",
+    "index.cjs",
+    "index.mjs"
   ],
   "dependencies": {
     "hast-util-from-parse5": "^6.0.1",
