@@ -1,5 +1,5 @@
-import { fromParse5 } from 'hast-util-from-parse5'
-import { toHtml } from 'hast-util-to-html'
+import fromParse5 from 'hast-util-from-parse5'
+import toHtml from 'hast-util-to-html'
 import { parseFragment } from 'parse5'
 import juice from 'juice'
 
