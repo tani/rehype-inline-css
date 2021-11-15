@@ -39,3 +39,5 @@ Please take care of Suspicious stylesheets.
 ## License
 
 MIT &copy; TANIGUCHI Masaya
+
+https://git.io/mit-license

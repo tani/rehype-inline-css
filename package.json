@@ -8,22 +8,17 @@
   "private": false,
   "scripts": {
     "test": "node test.mjs",
-    "build": "babel index.mjs -o index.cjs"
+    "build": "tsc -d"
   },
   "repository": {
     "url": "git@github.com:tani/rehype-inline-css.git",
     "type": "git"
   },
-  "exports": {
-    "import": "./index.mjs",
-    "require": "./index.cjs",
-    "default": "./index.cjs"
-  },
   "files": [
     "package.json",
     "README.md",
-    "index.cjs",
-    "index.mjs"
+    "index.js",
+    "index.d.ts"
   ],
   "dependencies": {
     "hast-util-from-parse5": "^6.0.1",
@@ -32,10 +27,6 @@
     "parse5": "^6.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.4",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
-    "babel-plugin-add-module-exports": "^1.0.4",
     "hast": "^1.0.0",
     "rehype-parse": "^8.0.3",
     "rehype-stringify": "^9.0.2",
