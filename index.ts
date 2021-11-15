@@ -1,14 +1,10 @@
 import fromParse5 from 'hast-util-from-parse5'
 import toHtml from 'hast-util-to-html'
 import { parseFragment } from 'parse5'
-import juice from 'juice'
+import juice, { Options} from 'juice'
+import type { Root } from 'hast'
 
-/**
- * @typedef {import('hast').Root} Root
- * @typedef {import('juice').Options} Options
- * @type {import('unified').Plugin<[Options] | void[], Root>}
- */
-export default (options) => function transformer(tree) {
+export default (options: Options) => function transformer(tree: Root) {
     const html = toHtml(tree)
     const src = juice(html, options)
     const doc = parseFragment(src)
