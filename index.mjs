@@ -3,6 +3,11 @@ import toHtml from 'hast-util-to-html'
 import { parseFragment } from 'parse5'
 import juice from 'juice'
 
+/**
+ * @typedef {import('hast').Root} Root
+ * @typedef {import('juice').Options} Options
+ * @type {import('unified').Plugin<[Options] | void[], Root>}
+ */
 export default (options) => function transformer(tree) {
     const html = toHtml(tree)
     const src = juice(html, options)
