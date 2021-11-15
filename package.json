@@ -2,7 +2,7 @@
   "name": "rehype-inline-css",
   "version": "0.3.3",
   "description": "Rehype plugin for juice",
-  "main": "index.cjs",
+  "main": "index.js",
   "author": "TANIGUCHI Masaya",
   "license": "MIT",
   "private": false,
