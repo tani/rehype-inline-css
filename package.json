@@ -1,6 +1,6 @@
 {
   "name": "rehype-inline-css",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "Rehype plugin for juice",
   "main": "index.js",
   "type": "module",
