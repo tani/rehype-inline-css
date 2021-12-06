@@ -27,7 +27,7 @@ Now running the above script yields:
 
 ## API
 
-`rehype().use(inlineCss[, options])`
+`rehype().use(inlineCss)`
 
 ## Security
 
