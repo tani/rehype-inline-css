@@ -29,8 +29,6 @@ Now running the above script yields:
 
 `rehype().use(inlineCss[, options])`
 
-- `options` is the same as the options of [juice](https://www.npmjs.com/package/juice).
-
 ## Security
 
 This plugin embeds all stylesheets in documents.
